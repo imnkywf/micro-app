@@ -1,0 +1,25 @@
+src/source/patch.ts
+  s_2ed4921770f110::t_2b1523cd98170d 429-431
+src/__tests__/source/patch.test.ts
+  s_2ed4921770f110::t_4fc917f7367728 384
+  s_2ed4921770f110::t_51f9427751b192 385-387
+  s_2ed4921770f110::t_541f05ac48d906 419
+  s_2ed4921770f110::t_28db01ea4a7dc5 4
+  s_2ed4921770f110::t_015b0d87657f43 388-418
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "15a1143e1ef9b6222b49800f8e5e6b0f20d21d67",
+  "prompts": {},
+  "sessions": {
+    "s_2ed4921770f110": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "284ee804-98e8-484a-982a-8a30b08d6c5e",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "imnkywf <74221377+imnkywf@users.noreply.github.com>"
+    }
+  }
+}
