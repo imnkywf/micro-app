@@ -1,0 +1,31 @@
+src/sandbox/scoped_css.ts
+  h_c54623cbb40c12 22,146
+  s_2ed4921770f110::t_3b2ab4a2ab78a9 27-28,30-38,40-41,43-48,50-52
+  s_2ed4921770f110::t_4b72f511afc812 23-26,29,39,42,49
+  s_2ed4921770f110::t_0bdc93967e8df5 145
+  s_2ed4921770f110::t_3c4af8882ff020 147-148,150-151,179
+src/__tests__/source/scoped_css.test.ts
+  s_2ed4921770f110::t_31d66e88da692a 409-433,435-439
+  h_c54623cbb40c12 408,434
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "671c7ed47cadf12427f07e636ccb8274a9caf478",
+  "prompts": {},
+  "humans": {
+    "h_c54623cbb40c12": {
+      "author": "fanyiwei.5 <fanyiwei.5@jd.com>"
+    }
+  },
+  "sessions": {
+    "s_2ed4921770f110": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "284ee804-98e8-484a-982a-8a30b08d6c5e",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "fanyiwei.5 <fanyiwei.5@jd.com>"
+    }
+  }
+}
