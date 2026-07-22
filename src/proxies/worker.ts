@@ -97,6 +97,9 @@ const WorkerProxy = new Proxy<Worker>(originalWorker, {
         : `importScripts(${workerScriptURL});`
       const workerPath = urlFromScript(script)
       instance = new Target(workerPath, options) as WorkerInstance
+      // Worker 构造时已同步拉取引导脚本，此时可安全释放 blob URL，避免每个跨域 worker 泄漏一个 blob
+      const URL = window.URL || window.webkitURL
+      URL.revokeObjectURL(workerPath)
     } else {
       // 如果 scriptURL 是同源的，直接使用原生的 Worker 构造函数
       instance = new Target(scriptURL, options) as WorkerInstance
