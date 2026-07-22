@@ -1,0 +1,21 @@
+src/proxies/worker.ts
+  s_2ed4921770f110::t_8373759603228a 100-102
+src/__tests__/proxies/worker.test.ts
+  s_2ed4921770f110::t_0bf7520cd8f5f9 1-72
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "a37b5ef6e56c58d5b0d7cbba6f896e6c24b5ae63",
+  "prompts": {},
+  "sessions": {
+    "s_2ed4921770f110": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "284ee804-98e8-484a-982a-8a30b08d6c5e",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "imnkywf <74221377+imnkywf@users.noreply.github.com>"
+    }
+  }
+}
